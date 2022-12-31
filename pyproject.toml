@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "slack-reposter"
+version = "0.1.0"
+description = ""
+authors = ["tarurata <saycheese5963@gmail.com>"]
+readme = "README.md"
+packages = [{include = "slack_reposter"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.2.0"
+requests = "^2.28.1"
+slack-sdk = "^3.19.5"
+configparser = "^5.3.0"
+datetime = "^4.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
